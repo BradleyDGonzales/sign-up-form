@@ -51,9 +51,6 @@ body {
     flex-direction: column;
     margin-top: 110px;
 }
-.text {
-    display: flex;
-}
 .text1,
 .text2,
 .text3 {
