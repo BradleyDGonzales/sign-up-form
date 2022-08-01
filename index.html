@@ -1,3 +1,4 @@
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +9,79 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="content">
+    <div class="main">
         <div class="image">
             <div class="logo">
                 <img class="odin" src="odin-lined.png">
                 Odin
             </div>
+            <div class="footer">
+                <p class="footertext">
+                    Photo by <u><a href="https://unsplash.com/@haliewestphoto">Halie West</a></u> on <u><a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></u>
+                </p>
+            </div>
+        </div>
+    <div class="info">
+        <p class="text1">
+            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            <br>Sign up <em>now</em> to get started.</br>
+            <br>You <em>know</em> you want to.</br>
+        </p>
+        <h1 class="formheadertext">Let's do this!</h1>
+        <div class="signupcontainer">
+            <div class="signupinfo1">
+                <form>
+                    <label for="fname">First Name *</label>
+                    <input class="userinfo" type="text" tabindex="1"  id="fname" name="fname" required minlength="3" maxlength="30">
+                    <label for="email">Email *</label>
+                    <input class="userinfo" type="email" tabindex="3" id="email" name="email" required>
+                    <label for="pwd">Password *</label>
+                    <input class="userinfo" type="password" tabindex="5" id="pwd" name="pwd" required>
+                </form>
+            </div>
+            <div class="signupinfo2">
+                <form>
+                <label for="lname">Last Name</label>
+                <input class="userinfo" type="text" tabindex="2" id="lname" name="lname">
+                <label for="phonenumber">Phone Number</label>
+                <input class="userinfo" type="tel" tabindex="4" id="phonenumber" name="phonenumber">
+                <label for="cpwd">Confirm Password*</label>
+                <input class="userinfo" type="password" tabindex="6" id="cpwd" name="cpwd" required minlength="3" maxlength="30">
+            </form>
+            </div>
+        </div>
+        <div class="create-account">
+            <input type="submit" value="Create Account">
+            <p class="undertext">Already have an account? <a class="login" href="https://www.youtube.com">Log in</a></p>
         </div>
     </div>
+</body>
+</html>
+<!--
+OLD CODE
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="image">
+            <div class="logo">
+                <img class="odin" src="odin-lined.png">
+                Odin
+            </div>
+            <div class="footer">
+                <p class="footertext">
+                    Photo by <u><a href="https://unsplash.com/@haliewestphoto">Halie West</a></u> on <u><a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></u>
+                </p>
+            </div>
+        </div>
     <div class="info">
             <div class="maintext">
                 <p class="text1">
@@ -26,28 +92,17 @@
             </div>
             <div class="signupform">
                 <h1 class="headtext">Let's do this!</h1>
-                <div class="signupinfo1">
+                <div class="inputs">
+                <form>
                     <label for="fname">First Name *</label>
                     <input type="text" id="fname" name="fname" required minlength="3" maxlength="30">
-                    <label for="email">Email *</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="pwd">Password *</label>
-                    <input type="password" id="pwd" name="pwd" required> 
-                </div>
-                <div class="signupinfo2">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lname">
-                    <label for="phonenumber">Phone Number *</label>
-                    <input type="tel" id="phonenumber" name="phonenumber" required>
-                    <label for="cpwd">Confirm Password*</label>
-                    <input type="password" id="cpwd" name="cpwd" required minlength="3" maxlength="30">
-                </div>
+                </form>
             </div>
-        </div>
-    </div>
 
-
-
+            </div>
+            <div class="create-account">
+                <input type="button" value="Create Account">
+            </div>
     </div>
 </body>
-</html>
+-->

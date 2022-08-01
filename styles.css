@@ -6,29 +6,27 @@
     font-style: normal;
 
 }
-
-
-body {
+.main {
     display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .image {
     background-image: url(./bg-image-leaf.avif);
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     width: 40vw;
-    overflow: hidden;
+    
 }
 .logo {
     font: 122px norsebold;
     color: white;
     height: 1.3em;
     display: flex;
-    flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
     margin-top: 210px;
@@ -39,47 +37,118 @@ body {
     width: 100px;
     height: 125px;
 }
-.info {
+.footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footertext {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+p {
+    padding-left: 50px;
+}
+.text1 {
+    background-color: rgba(230, 230, 230, 0.671);
+    font-size: calc(1.3vw + 5px);
+    padding: 3vw 30vw 3vw 3vw;
+    margin: 0;
+}
+
+a:link,
+a:visited {
+    color: white;
+}
+.info {
     height: 100vh;
     width: 100vw;
-    background-color: #eceef1
 }
 .maintext {
     display: flex;
     flex-direction: column;
     margin-top: 110px;
 }
-.text1,
-.text2,
-.text3 {
-    font-size: 30px;
-    padding-left: 50px;
-    width: 800px;
-}
-
-.text2 {
-    position: relative;
-    bottom: 60px;
-    
-}
-.text3 {
-    position: relative;
-    bottom: 100px;
-}
 .signupform {
     position: relative;
     bottom: 57px;
     padding-left: 50px;
-    height: 30vh;
+    height: 30vh;   
     background-color: white;
     box-shadow: 0 4px 4px -2px gray;
 }
 .signupinfo1,
 .signupinfo2 {
     display: inline-block;
+    padding-left: 3vw;
     width: 375px;
+}
+form {
+    display: block;
+}
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=password]:focus,
+input[type=email]:focus {
+    border: 1px solid rgb(0, 60, 255);
+    box-shadow: 0 3px 3px -2px gray;
+}
+
+.create-account {
+    padding: 3vw 30vw 3vw 3vw;
+}
+input[type=submit] {
+    background: #596D48;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    box-shadow: 0px 3px rgb(226, 226, 226);
+    padding: 10px 60px 10px 60px;
+    border-radius: 6px;
+    font-size: 22px;
+}
+.formheadertext {
+    font-size: calc(1.3vw + 5px);
+    padding-left: 3vw;
+    font-weight: 100;
+}
+label {
+    display: block;
+}
+.userinfo {
+    display: block;
+    border: 1px solid #E5E7EB;
+    padding: 6px;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+.signupcontainer {
+    box-shadow: 0 4px 4px -2px gray;
+}
+.undertext {
+    position: relative;
+    font-size: 22px;
+    right: 40px;
+}
+
+.login,
+.login:link,
+.login:visited,
+.login:hover,
+.login:focus,
+.login:active {
+    color: #596D48;
+    font-weight: 900;
+    text-decoration: none;
+}
+/* label {
+    display: block;
 }
 input {
     display: block;
@@ -88,4 +157,6 @@ input {
     border-radius: 5px;
     width: 300px;
     margin-bottom: 15px;
-}
+    outline: none;
+    box-sizing: border-box;
+} */
