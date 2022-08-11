@@ -29,32 +29,31 @@
         </p>
         <h1 class="formheadertext">Let's do this!</h1>
         <div class="signupcontainer">
+            <form action>
             <div class="signupinfo1">
-                <form>
                     <label for="fname">First Name *</label>
-                    <input class="userinfo" type="text" tabindex="1"  id="fname" name="fname" required minlength="3" maxlength="30">
+                    <input class="userinfo" type="text" tabindex="1"  id="fname" name="fname" minlength="3" maxlength="30" required >
                     <label for="email">Email *</label>
                     <input class="userinfo" type="email" tabindex="3" id="email" name="email" required>
                     <label for="pwd">Password *</label>
                     <input class="userinfo" type="password" tabindex="5" id="pwd" name="pwd" required>
-                </form>
             </div>
             <div class="signupinfo2">
-                <form>
                 <label for="lname">Last Name</label>
                 <input class="userinfo" type="text" tabindex="2" id="lname" name="lname">
                 <label for="phonenumber">Phone Number</label>
                 <input class="userinfo" type="tel" tabindex="4" id="phonenumber" name="phonenumber">
                 <label for="cpwd">Confirm Password*</label>
                 <input class="userinfo" type="password" tabindex="6" id="cpwd" name="cpwd" required minlength="3" maxlength="30">
-            </form>
             </div>
-        </div>
         <div class="create-account">
             <input type="submit" value="Create Account">
             <p class="undertext">Already have an account? <a class="login" href="https://www.youtube.com">Log in</a></p>
         </div>
+    </form>
+
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
 <!--
