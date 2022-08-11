@@ -147,6 +147,17 @@ label {
     font-weight: 900;
     text-decoration: none;
 }
+.error {
+    border: 1px solid rgb(255, 17, 0);
+    display: block;
+    padding: 6px;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 15px;
+    outline: none;
+    box-sizing: border-box;
+
+}
 /* label {
     display: block;
 }
